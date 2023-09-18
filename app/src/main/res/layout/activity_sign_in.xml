@@ -192,12 +192,12 @@
 
     <Button
         android:id="@+id/btncn"
-        android:layout_width="match_parent"
+        android:layout_width="217dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="80dp"
         android:text="Sign "
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
 
-        tools:layout_editor_absoluteX="-16dp" />
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="593dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
