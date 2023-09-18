@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
                 startActivities(arrayOf(Intent(this,GetStartedActivity::class.java)))
                 finish()
             }
+
         }
     }
 }

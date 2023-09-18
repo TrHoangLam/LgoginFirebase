@@ -52,6 +52,9 @@ class SignInActivity : BaseActivity() {
         }
         binding?.btnSignInWithGoogle?.setOnClickListener {signInWithGoogle()}
 
+        binding?.btncn?.setOnClickListener {
+            startActivities(arrayOf(Intent(this,EndActivity::class.java)))
+        }
     }
 
     private fun sinInUser()

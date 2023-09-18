@@ -157,6 +157,7 @@
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 />
+
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>
@@ -188,4 +189,15 @@
             android:textColor="@color/blue_5"
             />
     </LinearLayout>
+
+    <Button
+        android:id="@+id/btncn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:text="Sign "
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        tools:layout_editor_absoluteX="-16dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
